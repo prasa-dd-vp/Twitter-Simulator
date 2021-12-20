@@ -13,7 +13,7 @@
     mentioned in step 4 from different terminals or from different machines with different
     client ids.
 
-**IMPLEMENTATION**
+<ins>**IMPLEMENTATION**</ins>
 
 Twitter simulation implementation consists of two parts, a client process to simulate actions
 for the number of users given in the input(twitter_client) and a server engine for performing
@@ -57,7 +57,7 @@ given to the users(explained in later sections).
 theregistereduserslistarerandomlychosenandmadetogoofflineandanother20%
 of users who are already offline are made active. This is done every 5 seconds.
 
-**Zipf Distribution**
+<ins>**Zipf Distribution**</ins>
 
 Zipf's law is an empirical law formulated using mathematical statistics that refers to the fact
 that for many types of data studied in the physical and social sciences, the rank-frequency
@@ -85,13 +85,13 @@ clientmachine.Fortheprogram/simulationto **terminate** ,ctrl+Corcmd+C shouldbegi
 Sinceinthissimulationcertainusersgoonline/offlineata 5 secondinterval,theprogram
 keeps running simulating the live connections.
 
-**LARGEST NETWORK HANDLED**
+<ins>**LARGEST NETWORK HANDLED**</ins>
 
 Thelargestnetworkhandled inour projectisupto 100,000userswith 2 clientmachines
 sendingrequeststoaserverengine.Serverhandledaround 5000 requestspersecondforupto
 10000 users and from there on, it remained the same.
 
-**PERFORMANCE EVALUATION**
+<ins>**PERFORMANCE EVALUATION**</ins>
 
 In this simulation, the tweet, follow, querying of hashtags & mentions etc keeps happening
 once in 50ms to 100ms approximately. Thus user feeds, query results will be displayed in the
@@ -104,7 +104,7 @@ single client as well as multi client scenarios:
 **X-axis:** User ID values; **Y-axis:** Number of subscribers or Number of tweets
 
 
-**Server Performance Statistics and observations**
+<ins>**Server Performance Statistics and observations**</ins>
 
 In order to monitor the performance of the server engine, we analysed the number of requests
 the server engine could handle in 1 second. We monitored this for various input
